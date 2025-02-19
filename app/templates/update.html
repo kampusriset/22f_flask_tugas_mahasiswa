@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Update Tugas</h1>
+<form method="POST">
+    <div class="mb-3">
+        <label for="nama_tugas" class="form-label">Nama Tugas</label>
+        <input type="text" class="form-control" id="nama_tugas" name="nama_tugas" value="{{ tugas[1] }}" required>
+    </div>
+    <div class="mb-3">
+        <label for="mata_kuliah" class="form-label">Mata Kuliah</label>
+        <input type="text" class="form-control" id="mata_kuliah" name="mata_kuliah" value="{{ tugas[2] }}" required>
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+</form>
+<a href="{{ url_for('index') }}" class="btn btn-secondary mt-3">Kembali</a>
+{% endblock %}

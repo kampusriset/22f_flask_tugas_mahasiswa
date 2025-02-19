@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Daftar Tugas</h1>
+<a href="{{ url_for('tambah_tugas') }}" class="btn btn-primary mb-3">Tambah Tugas</a>
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nama Tugas</th>
+            <th>Mata Kuliah</th>
+            <th>Aksi</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for tugas in tugas %}
+        <tr>
+            <td>{{ tugas[0] }}</td>
+            <td>{{ tugas[1] }}</td>
+            <td>{{ tugas[2] }}</td>
+            <td>
+                <a href="{{ url_for('update_tugas', id_tugas=tugas[0]) }}" class="btn btn-warning btn-sm">Update</a>
+                <a href="{{ url_for('hapus_tugas', id_tugas=tugas[0]) }}" class="btn btn-danger btn-sm">Hapus</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}

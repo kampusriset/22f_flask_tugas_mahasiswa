@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+    <div class="card-header">
+        <h1 class="card-title">Tambah Tugas</h1>
+    </div>
+    <div class="card-body">
+        <form method="POST">
+            <div class="mb-3">
+                <label for="nama_tugas" class="form-label">Nama Tugas</label>
+                <input type="text" class="form-control" id="nama_tugas" name="nama_tugas" required>
+            </div>
+            <div class="mb-3">
+                <label for="mata_kuliah" class="form-label">Mata Kuliah</label>
+                <input type="text" class="form-control" id="mata_kuliah" name="mata_kuliah" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Tambah</button>
+        </form>
+    </div>
+    <div class="card-footer">
+        <a href="{{ url_for('index') }}" class="btn btn-secondary">Kembali</a>
+    </div>
+</div>
+{% endblock %}
