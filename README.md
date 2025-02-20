@@ -8,7 +8,7 @@ Aplikasi Sistem Manajemen Tugas Mahasiswa dirancang untuk membantu mahasiswa dal
 Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
 Flowchart alur kerja aplikasi : ![Bahasa Indonesia](Flowchart.jpg)
 
-# Kenalan Tim
+# Perkenalan Tim
 - Ryandra Surya Nandika (2213010344) - [Leader]
 - Kresna Bayu Prasetyo (2213010380) - [Programmer]
 - Lucky Amadya Falsabila (2213010379) - [Presenter]
