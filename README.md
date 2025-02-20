@@ -9,9 +9,9 @@ Berikut adalah flowchart yang menggambarkan alur kerja aplikasi:
 Flowchart alur kerja aplikasi : ![Bahasa Indonesia](Flowchart.jpg)
 
 # Kenalan Tim
-Kresna Bayu Prasetyo (2213010380) - [Programmer]
-Ryandra Surya Nandika (2213010344) - [Leader]
-Lucky Amadya (2213010379) - [Presenter]
+- Kresna Bayu Prasetyo (2213010380) - [Programmer]
+- Ryandra Surya Nandika (2213010344) - [Leader]
+- Lucky Amadya (2213010379) - [Presenter]
 
 # Tautan Video Dokumentasi
 Anda dapat menonton video dokumentasi aplikasi melalui tautan berikut:
