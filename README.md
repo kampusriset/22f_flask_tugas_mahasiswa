@@ -11,7 +11,7 @@ Flowchart alur kerja aplikasi : ![Bahasa Indonesia](Flowchart.jpg)
 # Kenalan Tim
 - Ryandra Surya Nandika (2213010344) - [Leader]
 - Kresna Bayu Prasetyo (2213010380) - [Programmer]
-- Lucky Amadya (2213010379) - [Presenter]
+- Lucky Amadya Falsabila (2213010379) - [Presenter]
 
 # Tautan Video Dokumentasi
 Anda dapat menonton video dokumentasi aplikasi melalui tautan berikut:
